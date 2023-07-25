@@ -1,0 +1,14 @@
+void merge_subarr(int *subarr, int *buff, size_t front, size_t mid, size_t back)
+
+1. The merge_subarr() function takes in the subarray, a buffer array, and the
+   start and end indices of the subarray.
+2. It then prints out the subarray.
+3. It then loops through the subarray and compares the elements.
+4. If the element at the front of the subarray is smaller than the element at
+   the back of the subarray, it copies the element at the front of the subarray
+   into the buffer array.
+5. If the element at the front of the subarray is larger than the element at the
+   back of the subarray, it copies the element at the back of the subarray into
+   the buffer array.
+6. It then copies the buffer array back into the subarray.
+7. It then prints out the subarray.
